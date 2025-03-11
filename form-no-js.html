@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barriecito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="noJS-style.css">
+    <script></script>
+    <meta charset="UTF-8">
+    <meta name="description" content="Steve's Personal Portfolio">
+    <meta name="author" content="Steve Padmanaban">
+
+</head>
+
+<body>
+    <background-section>
+        <div class="navBar">
+            <nav>
+                <a class="active" style="margin-right:20px;" href="index.html">Home</a>
+                <a class="#about" style="margin-right:20px;" href="about.html">About</a>
+                <a class="#projects" style="margin-right:20px;" href="projects.html">Projects</a>
+                <a class="#hobby" href="hobbies.html">Hobbies</a>
+            </nav>
+        </div>
+        <br>
+        <svg width="300" height="200">
+            <polygon points="100,10 40,198 190,78 10,78 160,198"
+                style="fill:lightblue;stroke:purple;stroke-width:5;fill-rule:evenodd;" />
+        </svg>
+        <hgroup>
+            <header>
+                <h2>About Me</h2>
+            </header>
+        </hgroup>
+        <main>
+            <summary>
+                <p>My interest in Computer Science (CS) sparked at a small age from proximity to nearby technology
+                    buildings.
+                    It became more profound in middle school when reading techno-thriller books such as <i>Digital
+                        Fortress</i> by Dan Brown,
+                    as I became curious about how computers are influencing humanity and are shifting to the uses of
+                    Artificial Intelligence (AI) and Machine Learning (ML).
+                    I was astonished by the introduction of AI powered chatbots which maintained a natural conversation
+                    with
+                    a human being,
+                    serving as a vital tool for many industries like e-commerce and healthcare. I was in Top 10% in high
+                    school. <br><br>
+                    In college, I had completed relevant coursework and projects in <span style="color:blue;">Software
+                        Engineering and AI</span>. I am currently seeking challenges in employment that will
+                    expand technical knowledge and advance development experience in realworld applications. I am
+                    <b>open to
+                        relocation</b> for this opportunity. <br><br>
+
+                    <em><b>I am looking forward to connect with anyone visiting this portfolio. Fill out this form below
+                            and
+                            let's connect!</b></em>
+                </p>
+            </summary>
+        </main>
+
+        <section>
+            <search>
+                <form action="https://httpbin.org/get" method="get" id="contact" autocomplete="off">
+                    <fieldset>
+                        <legend>Contact</legend>
+                
+                        <div class="form-group">
+                            <label for="firstName">First Name <span class="required">*</span>:</label>
+                            <input type="text" name="firstName" id="firstName" required minlength="2" maxlength="50">
+                            <output class="error"></output>
+                            <output class="info"></output>
+                        </div>
+                
+                        <div class="form-group">
+                            <label for="lastName">Last Name <span class="required">*</span>:</label>
+                            <input type="text" name="lastName" id="lastName" required minlength="2" maxlength="50">
+                            <output class="error"></output>
+                            <output class="info"></output>
+                        </div>
+                
+                        <div class="form-group">
+                            <label for="email">Email <span class="required">*</span>:</label>
+                            <input type="email" name="email" id="email" required>
+                            <output class="error"></output>
+                            <output class="info"></output>
+                        </div>
+                
+                        <div class="form-group">
+                            <label for="comments" ><strong>Comments:</strong></label>
+                            <textarea id="comments" name="comments" maxlength="1000"></textarea>
+                            <output class="error"></output>
+                            <output class="info"></output>
+                        </div>
+                
+                        <input type="hidden" name="possible_bot" value="true">
+                        <input type="submit" class="btn" value="Let's Talk!">
+                    </fieldset>
+                </form>
+            </search>
+        </section><br><br><br>
+        <aside>
+            <h2>Favorite Companies</h2>
+
+            <picture>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8u8BZcgcIxcfgSJsas_HDf2pfYTBlmo2q3g&s">
+                <img src="https://i.pinimg.com/originals/01/ca/da/01cada77a0a7d326d85b7969fe26a728.jpg" height="200"
+                    width="200">
+                <img src="https://1000logos.net/wp-content/uploads/2017/05/Netflix-Logo-2006.png" height="200"
+                    width="300">
+
+            </picture>
+        </aside>
+
+
+        <footer><a href="https://www.linkedin.com/in/steve-padmanaban-8417bb282">LinkedIn</a></footer>
+        <footer><a href="https://github.com/spadmanaban25">Github</a></footer>
+        <footer class="Copyright">Copyright 2025-Steve Padmanaban</footer>
+    </background-section>
+</body>
+
+</html>

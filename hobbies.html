@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barriecito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="description" content="Steve's Personal Portfolio">
+    <meta name="author" content="Steve Padmanaban">
+
+</head>
+
+<body>
+    <background-section>
+        <div class="navBar">
+            <nav>
+                <a class="active" style="margin-right:20px;" href="index.html">Home</a>
+                <a class="#about" style="margin-right:20px;" href="about.html">About</a>
+                <a class="#projects" style="margin-right:20px;" href="projects.html">Projects</a>
+                <a class="#hobby" href="hobbies.html">Hobbies</a>
+                <div id="themePicker">
+                    <label for="themeSelect">Choose Theme:</label>
+                    <select id="themeSelect">
+                        <option value="original">Original</option>
+                        <option value="night">Night</option>
+                        <option value="minima">Minima</option>
+                        <option value="cayman">Cayman</option>
+                        <option value="midnight">Midnight</option>
+                        <option value="modernist">Modernist</option>
+                        <option value="slate">Slate</option>
+                        <option value="hacker">Hacker</option>
+                    </select>
+            </nav>
+        </div>
+        <br>
+        <h2>Favorite Hobbies</h2>
+        <ul class="hobbyList">
+            <li>
+                <h3>Basketball</h3>
+            </li>
+            <p>Favorite NBA player</p>
+            <audio controls>
+                <source src="Lebron James Sound Effect.mp3" type="audio/ogg">
+            </audio>
+            <p>Favorite NBA Moment</p><br>
+            <figure>
+                <video controls>
+                    <source src="videoplayback.mp4" type="video/mp4">
+                </video>
+                <figcaption>Lebron making a dunk in 2012 game against Celtics</figcaption>
+                <cite>NBA 2012</cite>
+            </figure>
+            <li>
+                <h3>Playing Piano</h3>
+            </li>
+            <p>I play piano, <del>guitar</del>, and <ins>saxophone</ins></p>
+            <li>
+                <h3>Solving Puzzle Cubes</h3>
+            </li>
+        </ul>
+        <dialog class="gandhiQuote" open>
+            <blockquote cite="https://www.goodreads.com/quotes">
+                Be the change that you wish to see in the world.
+                -Mahatma Gandhi
+            </blockquote>
+        </dialog>
+        <br>
+        <aside>
+            <dl>
+                <dt><abbr title="University of California San Diego">UCSD</abbr> Mascot Colors</dt>
+                <dd>Blue</dd>
+                <dd>Yellow</dd>
+            </dl>
+        </aside>
+        <address>
+            <footer><a href="https://www.linkedin.com/in/steve-padmanaban-8417bb282">LinkedIn</a></footer>
+            <footer><a href="https://github.com/spadmanaban25">Github</a></footer>
+            <footer class="Copyright">Copyright 2025-Steve Padmanaban</footer>
+            <template>CS Rocks</template>
+        </address>
+    </background-section>
+</body>
+
+</html>

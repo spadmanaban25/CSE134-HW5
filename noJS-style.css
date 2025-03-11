@@ -1,0 +1,223 @@
+:root {
+    --bg-color: lightblue;
+    --default-pad-size: 20px;
+    --default-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    .navBar {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0;
+    }
+
+    .navBar a {
+        margin: 10px 0;
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    .steve-img {
+        width: 100%;
+        height: auto;
+    }
+
+    pre {
+        font-size: 0.9rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    footer {
+        padding: 5px;
+    }
+
+    footer a {
+        display: block;
+        margin: 5px 0;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    h3 {
+        font-size: 1.3rem;
+    }
+
+    .steve-img {
+        width: 80%;
+        height: auto;
+    }
+
+    pre {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 1025px) {
+    .navBar {
+        justify-content: flex-end;
+        padding: 10px 20px;
+    }
+
+    .navBar a {
+        margin: 0 20px;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 1.8rem;
+    }
+
+    .steve-img {
+        width: 500px;
+        height: 700px;
+    }
+
+    pre {
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 1.1rem;
+    }
+}
+
+background-section {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg-color, lightblue);
+
+    padding: var(--default-pad-size, 20);
+    border-radius: var(--default-radius, 8);
+    border: 0.25rem solid black;
+}
+
+@keyframes stamp {
+    0% {
+        transform: scale(3) rotate(-20deg);
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1) rotate(5deg);
+    }
+
+    70% {
+        transform: scale(1) rotate(-3deg);
+    }
+
+    100% {
+        transform: scale(1) rotate(0deg);
+        opacity: 1;
+    }
+}
+
+.hobbyList {
+    font-family: "Barriecito", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.steve-img {
+    opacity: 0;
+    animation: stamp 0.5s ease-out forwards;
+    max-width: 100dvw;
+    height: auto;
+}
+
+picture, img, svg{
+    object-fit:cover;
+    object-position:center top;
+}
+
+.btn {
+    transform: transform 0.3s ease-in-out;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+nav {
+    a {
+        transition: transform 0.3s ease-in-out;
+    }
+
+    a:hover {
+        transform: scale(1.2);
+        color: color(display-p3 0 0.5 0);
+    }
+}
+
+.gandhiQuote {
+    position: fixed;
+    left: 50%;
+    bottom:-10;
+    background-color: color-mix(in srgb, red 50%, blue 50%);
+    color: white;
+}
+
+#contact {
+    display:flex;
+}
+
+
+.form-group {
+    display:flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+label .required {
+    color: red;
+    font-weight: bold;
+}
+
+input:user-invalid {
+    border: 2px dashed red;
+}
+
+input:user-invalid + .error::before {
+    content: "Invalid input";
+    color:red;
+}
+
+output {
+    display: block;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+.info {
+    color: blue;
+    font-size: 14px;
+    margin-top: 3px;
+}
+

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barriecito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="description" content="Steve's Personal Portfolio">
+    <meta name="author" content="Steve Padmanaban">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+    <background-section>
+        <hello-world></hello-world> <!-- Custom Element -->
+
+        <script>
+            class HelloWorld extends HTMLElement {
+                connectedCallback() {
+                    console.log("Hello Everyone this is Steve!");
+                }
+            }
+
+            customElements.define("hello-world", HelloWorld);
+        </script>
+        <div class="navBar">
+            <a class="#home" style="margin-right:20px;" href="index.html">Home</a>
+            <a class="#about" style="margin-right:20px;" href="about.html">About</a>
+            <a class="#projects" style="margin-right:20px;" href="projects.html">Projects</a>
+            <a class="#hobby" href="hobbies.html">Hobbies</a>
+            <div id="themePicker">
+                <label for="themeSelect">Choose Theme:</label>
+                <select id="themeSelect">
+                    <option value="original">Original</option>
+                    <option value="night">Night</option>
+                    <option value="minima">Minima</option>
+                    <option value="cayman">Cayman</option>
+                    <option value="midnight">Midnight</option>
+                    <option value="modernist">Modernist</option>
+                    <option value="slate">Slate</option>
+                    <option value="hacker">Hacker</option>
+                </select>
+            </div>
+            <br><br><br><br><br>
+            <center>
+                <h1>Hi There! <br><code>Hello World!</code></h1><br>
+                <img class="steve-img" src="Steve.jpg" width="500px" height="700px;" />
+                <caption>Empire State Building</caption>
+                <h3>
+                    <pre>I am a fourth year Computer Science student at UC San Diego with a passion in Software Engineering and Machine Learning</pre>
+                </h3>
+            </center>
+            <p>Press <kbd>Ctrl/Cmd</kbd> + <kbd>F5/R</kbd> if images or videos don't load</p>
+            <footer><a href="https://www.linkedin.com/in/steve-padmanaban-8417bb282">LinkedIn</a></footer>
+            <footer><a href="https://github.com/spadmanaban25">Github</a></footer>
+            <footer class="Copyright">Copyright 2025-Steve Padmanaban</footer>
+            <noscript>Browser doesn't support JavaScript!</noscript>
+    </background-section>
+</body>
+
+</html>
