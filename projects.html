@@ -5,6 +5,7 @@
     <title>Home</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
+    <script src="CustomCard.js"></script>
     <meta charset="UTF-8">
     <meta name="description" content="Steve's Personal Portfolio">
     <meta name="author" content="Steve Padmanaban">
@@ -34,40 +35,10 @@
             </nav>
         </div>
         <br>
-        <details>
-            <h2>Relevant Experience</h2>
-            <table>
-                <colgroup>
-                    <col style="border: 10px;">
-                </colgroup>
-                <th>TritonChatApp - 2024</th>
-                <tr>
-                    <td>Developed a simple real-time chat CRUD application using ReactJS where users can message each
-                        other
-                        in a chat room.</td>
-                </tr>
-                <tr>
-                    <td>Utilized <dfn>Google Firebase</dfn> to manage users' information and their messages in a
-                        Realtime Database,
-                        enable user
-                        authentication, and deployment of application</td>
-                </tr>
-                <br><br>
-                <th>Computer Vision in Space Study - 2024</th>
-                <tr>
-                    <td>Collaborated on a group research project on the tracking and surveillance of space debris using
-                        Computer Vision.</td>
-                </tr>
-                <tr>
-                    <td>Recognized among Top 5 Studies in Computer Vision Course which was presented to professor and
-                        peers
-                    </td>
-                </tr>
-            </table>
-        </details>
-        <hr>
-        <h3>React Chat App</h3>
-        <iframe src="https://reactchatproject2024.web.app/"></iframe>
+        <h2>Relevant Experience</h2>
+        <button id="localLoad">Load Local</button><br>
+        <button id="loadRemote">Load Remote</button><br>
+        <div id="project-container"><span id="project_msg">Load Projects Here</span></div>
         <footer><a href="https://www.linkedin.com/in/steve-padmanaban-8417bb282">LinkedIn</a></footer>
         <footer><a href="https://github.com/spadmanaban25">Github</a></footer>
         <footer>Copyright 2025-Steve Padmanaban</footer>

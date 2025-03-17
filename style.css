@@ -112,6 +112,7 @@ background-section {
     flex-direction: column;
     background-color: var(--bg-color);
     color: var(--text-color);
+    min-height:100vh;
 
     padding: var(--default-pad-size, 20);
     border-radius: var(--default-radius, 8);
@@ -178,8 +179,8 @@ nav {
 }
 
 .gandhiQuote {
-    position: fixed;
-    left: 50%;
+    position: absolute;
+    left:30%;
     bottom:-10;
     background-color: color-mix(in srgb, red 50%, blue 50%);
     color: white;
@@ -225,7 +226,7 @@ output {
 }
 
 #themePicker {
-    position: fixed;
+    position: absolute;
     top: 10px;
     right: 10px;
     border: none;
@@ -233,4 +234,32 @@ output {
     font-size: 1.25rem;
     cursor: pointer;
 }
+
+#project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 2px dashed black;
+    flex:1;
+}
+
+#localLoad, #loadRemote {
+    background-color: aliceblue;
+    width:100px;
+}
+
+#localLoad:hover{
+    background-color: orange;
+}
+
+#loadRemote:hover{
+    background-color: aquamarine;
+}
+
+#project-container span {
+    margin-left:800px;
+    margin-top:300px;
+    font-size:20px;
+}
+
 

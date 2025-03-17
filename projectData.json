@@ -1,0 +1,43 @@
+[
+    {
+        "title": "TritonChatApp",
+        "imgSrc": "https://sportslogohistory.com/wp-content/uploads/2023/09/uc_san_diego_tritons_2018-2021_a.png",
+        "imgAlt": "Image of Triton",
+        "description": "A simple real-time chat CRUD application using ReactJS where users can message each other in a chat room",
+        "link": "https://reactchatproject2024.web.app/",
+        "linkText": "Website"
+    },
+    {
+        "title": "Computer Vision in Space Study",
+        "imgSrc": "https://stargazersclubwa.com.au/wp-content/uploads/2023/01/4-8-nrc-evaluates-nasas-orbital-debris-programs.jpg",
+        "imgAlt": "Image of Earth with space debris",
+        "description": "A group research project on the tracking and surveillance of space debris using Computer Vision",
+        "link": "https://docs.google.com/presentation/d/111Vgkt0hqErtYmJvq0PClHZ-uYyXfiHGKUGpe4UXlSU/edit?usp=sharing",
+        "linkText": "Presentation"
+    },
+    {
+        "title": "Stadium Ticket Sales Revenue",
+        "imgSrc": "https://t3.ftcdn.net/jpg/05/36/40/82/360_F_536408248_PZQSK2YQh9FaYCyflWHbckD1xZvoo2zg.jpg",
+        "imgAlt": "Image of Stadium",
+        "description": "A simple Python UI program that calculates the revenue from ticket sales of a Stadium based on the type of ticket sold (student, senior, general admissions), displaying the revenue from each ticket type sold and the grand revenue of all ticket sales.",
+        "link": "http://github.com/spadmanaban25/Stadium-Ticket-Sales-Revenue",
+        "linkText": "Repository"
+    },
+    {
+        "title": "Baeometer Project",
+        "imgSrc": "https://raw.githubusercontent.com/cse110-sp23-group28/cse110-sp23-group28/424468c86787228c2931186ccadb651e726a77cc/source/img/heartM.svg",
+        "imgAlt": "Image of Heart",
+        "description": "A fortune telling web app on a project team of 10 that computes the strength of a hypothetical relationship between any 2 people based on their zodiac signs",
+        "link": "https://github.com/cse110-sp23-group28/cse110-sp23-group28",
+        "linkText": "Repository"
+    }, 
+    {
+        "title": "Bank Management Project",
+        "imgSrc": "https://media.istockphoto.com/id/1151557689/vector/vector-image-of-a-flat-isolated-icon-dollar-sign-currency-exchange-dollar-united-states.jpg?s=612x612&w=0&k=20&c=XxoU_vrc2LCsrlRnmZHysq6HG_tBIUsPVVxi0VeTCKA=",
+        "imgAlt": "Image of Dollar Sign",
+        "description": "A simple multitier Bank Application that maintained and verified users’ information and accounts, and performed basic operations such as Account Transfer and Deposit.",
+        "link": "https://github.com/cse110-sp23-group28/cse110-sp23-group28",
+        "linkText": "Repository"
+    }
+    
+]

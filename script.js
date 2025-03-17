@@ -18,6 +18,11 @@ document.addEventListener("DOMContentLoaded", () => {
         document.documentElement.style.setProperty("--bg-color", theme.bg);
         document.documentElement.style.setProperty("--text-color", theme.text);
         localStorage.setItem("selectedTheme", themeName);
+
+        document.querySelectorAll("project-container").forEach(el => {
+            el.style.backgroundColor = theme.bg;
+            el.style.color = theme.text;
+        });
     }
 
     function loadSavedTheme() {
